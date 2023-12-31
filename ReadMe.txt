@@ -9,7 +9,7 @@ This project demonstrates the deployment of a static website using Terraform and
 - [Prerequisites]
 - [Getting Started]
 - [Project Structure]
-- [Usage]
+- [Key Findings/Lessons Learned]
 - [Contributers]
 
 
@@ -42,6 +42,25 @@ Before you begin, ensure you have the following installed:
 ├── main.tf # Terraform configuration file
 ├── Current_Time.html # HTML content for the static website
 └── README.md # Project documentation
+
+## Key Findings/Lessons Learned
+During the course of this project, several valuable skills were acquired, contributing to a well-rounded understanding of cloud administration, infrastructure as code, and web technologies:
+1. **Azure Resource Management:**
+   - Explored and leveraged a variety of Azure resources, gaining hands-on experience with the Azure portal and understanding the capabilities of cloud services.
+   - Learned how to provision and manage resources such as resource groups, storage accounts, and blobs for effective cloud-based solutions.
+2. **Terraform Experience:**
+   - Learned the syntax and structure of Terraform, a powerful Infrastructure as Code (IaC) tool.
+   - Gained practical experience in writing Terraform configurations to define and deploy infrastructure components.
+3. **Infrastructure Deployment:**
+   - Applied Terraform to deploy a static website infrastructure on Azure, showcasing the ability to automate the creation and configuration of cloud resources.
+   - Addressed challenges related to infrastructure provisioning,thus showing problem-solving skills and adaptability.
+4. **Web Technologies Exposure:**
+   - Delved into some HTML and JavaScript to create a static website that shows the user the Time.
+5. **Continuous Learning:**
+   - Embraced a proactive approach to continuous learning, gaining new knowledge and skills to overcome project-specific challenges.
+   - Demonstrated the ability to adapt and acquire new technologies as needed, a crucial trait in dynamic cloud and tech environments.
+
+These lessons learned not only enhance technical capabilities but also reflect a commitment to ongoing professional development and a versatile skill set applicable to roles in cloud administration and infrastructure management.
 
 ##Contributers 
 Shaitown904
