@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 4. Create and navigate to the project directory: `terminal>> cd your-project`
 5. Login into Azure via the CLI: `terminal >> cd your-project>> AZ login`
 6. Update the Terraform variables in `main.tf` file as needed.
-7. Ensure that the Current_Time.html file is in the same folder as the main.tf file. #if file is not in folder Terraform will not recognize it
+7. Ensure that the Current_Time.html file is in the same folder as the main.tf file. #if file is not in folder, Terraform will not recognize it
 8. Run `terminal>> your-project>> terraform init` to initialize the project.
 9. Run `terminal>> your-project>> terraform apply` to apply the Terraform configuration and deploy the infrastructure.
 
