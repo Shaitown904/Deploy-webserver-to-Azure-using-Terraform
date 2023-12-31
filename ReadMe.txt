@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+1. Clone the repository: `git clone https://github.com/Shaitown904/Deploy-webserver-to-Azure-using-Terraform.git`
 2. Navigate to the project directory: `cd your-project`
 3. Update the Terraform variables in `main.tf` file as needed.
 4. Run `terraform init` to initialize the project.
