@@ -10,7 +10,7 @@ This project demonstrates the deployment of a static website using Terraform and
 - [Getting Started]
 - [Project Structure]
 - [Key Findings/Lessons Learned]
-- [Contributers]
+- [Contributors]
 
 
 ## Overview
@@ -30,13 +30,17 @@ Before you begin, ensure you have the following installed:
 - [Terraform](https://www.terraform.io/downloads.html)
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
-## Getting Started
-
-1. Clone the repository: `git clone https://github.com/Shaitown904/Deploy-webserver-to-Azure-using-Terraform.git`
-2. Navigate to the project directory: `cd your-project`
-3. Update the Terraform variables in `main.tf` file as needed.
-4. Run `terraform init` to initialize the project.
-5. Run `terraform apply` to apply the Terraform configuration and deploy the infrastructure.
+## Getting Started/Procedures 
+//This was done on macOS
+1. Open VSCode
+2. Clone the repository: `terminal >> git clone https://github.com/Shaitown904/Deploy-webserver-to-Azure-using-Terraform.git`
+3. Create the Project Directory `terminal >> mkdir your-project`
+4. Create and navigate to the project directory: `terminal>> cd your-project`
+5. Login into Azure via the CLI: `terminal >> cd your-project>> AZ login`
+6. Update the Terraform variables in `main.tf` file as needed.
+7. Ensure that the Current_Time.html file is in the same folder as the main.tf file. #if file is not in folder Terraform will not recognize it
+8. Run `terminal>> your-project>> terraform init` to initialize the project.
+9. Run `terminal>> your-project>> terraform apply` to apply the Terraform configuration and deploy the infrastructure.
 
 ## Project Structure
 ├── main.tf # Terraform configuration file
@@ -62,5 +66,5 @@ During the course of this project, several valuable skills were acquired, contri
 
 These lessons learned not only enhance technical capabilities but also reflect a commitment to ongoing professional development and a versatile skill set applicable to roles in cloud administration and infrastructure management.
 
-##Contributers 
+##Contributors
 Shaitown904
